@@ -7,7 +7,9 @@ and open the template in the editor.
     Created on : 2020.11.03., 13:08:58
     Author     : user
 */
-
+img{
+    width:65px;
+}
 *{
     margin:auto;
 }
