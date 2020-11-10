@@ -7,15 +7,17 @@ and open the template in the editor.
     Created on : 2020.11.03., 13:08:58
     Author     : user
 */
-#learazas{
-    display:block;
-    margin:auto;
+
+*{
+    margin:0;
+}
+body{
+    background-image:url('../img/background.png');
+    animation: Animation 8s linear infinite alternate;
+    background-repeat: no-repeat;
 }
 .img2{
     width:65px;
-}
-*{
-    margin:auto;
 }
 .navbar {
     overflow: hidden;
@@ -32,13 +34,13 @@ and open the template in the editor.
     text-decoration: none;
 }
 
-/* The subnavigation menu */
+
 .subnav {
     float: left;
     overflow: hidden;
 }
 
-/* Subnav button */
+
 .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -50,12 +52,12 @@ and open the template in the editor.
     margin: 0;
 }
 
-/* Add a red background color to navigation links on hover */
+
 .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: red;
 }
 
-/* Style the subnav content - positioned absolute */
+
 .subnav-content {
     display: none;
     position: absolute;
@@ -65,20 +67,25 @@ and open the template in the editor.
     z-index: 1;
 }
 
-/* Style the subnav links */
+
 .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
 }
 
-/* Add a grey background color on hover */
+
 .subnav-content a:hover {
     background-color: #eee;
     color: black;
 }
 
-/* When you move the mouse over the subnav container, open the subnav content */
+
 .subnav:hover .subnav-content {
     display: block;
 } 
+
+@keyframes Animation{
+    from {background-image:url('../img/background.png')} to
+        {background-image:url('../img/background-01.png')}
+}
