@@ -108,7 +108,7 @@ table{
     margin-left: 600px;
     margin-top: 200px;
     border: 2px;
-    
+    float: right;
 }
 .img3{
     width:150px;
