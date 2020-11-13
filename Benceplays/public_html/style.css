@@ -11,7 +11,7 @@ and open the template in the editor.
 
 body{
     background-image:url('img/learazas.png');
-    animation: background 8s linear infinite alternate;  
+    animation: background 5s linear infinite alternate;  
 }
 .img2{
     width:65px;
