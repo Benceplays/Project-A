@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>xd</title>
-    </head>
-    <body>
-        <div class="navbar">
-            <img class="img2" style="float:right" src="img/logo.png" alt=""/>
-  <a href="index.html">Főoldal  <i class="fa fa-home"></i></a>
-  <div class="subnav">
-    <button class="subnavbtn">Termékeink <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Nike</a>
-      <a href="#team">Adidas</a>
-      <a href="#">Puma</a>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>xd</title>
+  <script src="script.js"></script>
+</head>
+
+<body onload="loadStyle();">
+  <div id="mob"></div>
+  <div id="width"></div>
+  <div class="navbar">
+    <img class="img2" style="float:right" src="img/logo.png" alt="" />
+    <a href="index.html">Főoldal <i class="fa fa-home"></i></a>
+    <div class="subnav">
+      <button class="subnavbtn">Termékeink <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#company">Nike</a>
+        <a href="#team">Adidas</a>
+        <a href="#">Puma</a>
+      </div>
+    </div>
+    <a href="#home">Rólunk</a>
+    <a href="#contact">Kapcsolat</a>
+  </div>
+  <h1>Miért minket válassz?</h1>
+  <div class="main">
+    <div class="container">
+      <img src="img/contact.png" alt="">
+      <p>Terméked nem tetszik, mérethibás, esetleg másra számítóttál?
+        Azonnal visszatérítjük pénzed!
+        <hr>
+      </p>
+       <p class="link"><a href="Kapcsolat/kapcsolat.html">Kapcsolat</a></p>
+    </div>
+    <div class="container">
+      <img src="img/mouse.png" alt="">
+      <p>Munkatársaink minden percben azon vannak, hogy a te segítségedre legyenek.Mindennap ezen dolgoznak.
+        <hr>
+      </p>
+      <p class="link"><a href="Rolunk/rolunk.html">Rólunk</a></p>
+    </div>
+    <div class="container">
+      <img src="img/identity.png" alt="">
+      <p>Állam által kibocsátott igazolványunkkal és eredetetigazolással igazoljuk a termékek és az oldal validitását.
+        <hr>
+      </p>
+      <p class="link"><a href="nike/nikehtml.html">Termékek</a></p>
     </div>
   </div>
-    <a href="#home">Rólunk</a>
-  <a href="#contact">Kapcsolat</a>
-</div>
-    </body>
+</body>
+
 </html>
