@@ -92,24 +92,27 @@ table{
     display: block;
 } 
 .img1{
-    width:180px;
+    width:130px;
 
 }
 .img2{
     width:70px;
 }
 
-.divairforce{
-    margin-left: 600px;
-    margin-top: 200px;
-    border: 2px;
-}
-.divjordan{
-    margin-left: 600px;
-    margin-top: 200px;
-    border: 2px;
-    float: right;
-}
+
 .img3{
-    width:150px;
+    width:50px;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: var;
+    max-width: 300px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+ 
+}
+
+
