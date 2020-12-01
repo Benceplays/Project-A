@@ -84,9 +84,6 @@ and open the template in the editor.
     width: calc(33.33333333333333% + 200px);
 }
 
-div#container:last-of-type{
-    margin-right: 0;
-}
 .container{
     font-size: 20px;
     margin-top:calc(20%);
@@ -97,14 +94,14 @@ div#container:last-of-type{
     height: 400px;
     box-shadow: 5px 0px 15px grey;
 }
+.container:last-of-type{
+    margin-right: 0;
+}
 
 .container:hover{
     border: 1px solid black;
     border-radius: 6px;
     text-decoration: underline;
-}
-div.container:last-of-type{
-    margin-right:0;
 }
     
 
@@ -125,7 +122,7 @@ div.container:last-of-type{
 }
 
 .container hr{
-    margin: 10px 0px 10px 10px;
+    margin: 10px 10px -10px 10px;
 }
 
 
