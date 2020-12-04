@@ -8,15 +8,11 @@ and open the template in the editor.
     Author     : user
 */
 
-
-body{
-    background-image:url('img/learazas.png');
-    animation: background 5s linear infinite alternate;  
-}
 .img2{
     width:65px;
 }
 *{
+    font-family: myFont;
     margin:auto;
 }
 .navbar {
@@ -24,7 +20,6 @@ body{
     background-color: #333;
 }
 
-/* Navigation links */
 .navbar a {
     float:left;
     font-size: 16px;
@@ -34,7 +29,6 @@ body{
     text-decoration: none;
 }
 
-/* The subnavigation menu */
 .subnav {
     float: left;
     overflow: hidden;
@@ -85,7 +79,71 @@ body{
     display: block;
 } 
 
-@keyframes background {
-    from {background-image:url('img/learazas.png')} to
-    {background-image: url('img/background-01.png');}
+
+.main{
+    width: calc(33.33333333333333% + 200px);
+}
+
+.container{
+    font-size: 20px;
+    margin-top:calc(20%);
+    margin-right:100px;
+    display: inline-block;
+    background-color:white;
+    width: 200px;
+    height: 400px;
+    box-shadow: 5px 0px 15px grey;
+}
+.container:last-of-type{
+    margin-right: 0;
+}
+
+.container:hover{
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+    
+
+
+.container p{
+    text-align: center;
+    padding: 10px;
+}
+
+.container p.link{
+    text-align: center;
+    padding: 30px;
+}
+
+.container a{
+    text-decoration: none;
+    color:black;
+}
+
+.container hr{
+    margin: 10px 10px -10px 10px;
+}
+
+
+.container img{
+    padding-bottom:35px;
+    padding-top:15px;
+    width: 100px;
+    position: relative;
+    right:-50px ;
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    margin-top:25px;
+}
+
+
+
+@font-face {
+    src : url('font.ttf');
+    font-family : myFont;
 }

@@ -4,16 +4,21 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2020.11.10., 13:34:38
+    Created on : 2020.11.03., 13:08:58
     Author     : user
 */
+body{
+    background: url('img/learazas.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: background 5s linear infinite alternate;  
+}
 
 .img2{
     width:65px;
 }
 *{
     margin:auto;
-    font-family: myFont;
 }
 .navbar {
     overflow: hidden;
@@ -81,7 +86,7 @@ and open the template in the editor.
     display: block;
 } 
 
-@font-face {
-    src : url('font.ttf');
-    font-family : myFont;
+@keyframes background {
+    from {background-image:url('img/learazas.png')} to
+    {background-image: url('img/background-01.png');}
 }
