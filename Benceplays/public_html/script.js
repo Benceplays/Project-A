@@ -1,23 +1,15 @@
-function detectMob() {
-    const toMatch = [
-        /Android/i,
-        /webOS/i,
-        /iPhone/i,
-        /iPad/i,
-        /iPod/i,
-        /BlackBerry/i,
-        /Windows Phone/i
-    ];
-
-    return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
-    });
+/**
+  * @param {String} url - address for the HTML to fetch
+  * @return {String} the resulting HTML string fragment
+  */
+ async function fetchHtmlAsText(url) {
+    return await (await fetch(url)).text();
 }
 
-function loadStyle() {
-    console.log(detectMob());
-    console.log(screen.width);
-    console.log(navigator.userAgent);
-    //document.getElementById("mob").innerHTML = detectMob();
-    //document.getElementById("width").innerHTML = screen.width;
+/**
+  * @param {String} url - address for the HTML to fetch
+  */
+async function loadHTML(url, id) {
+    const contentDiv = document.getElementById(id);
+    contentDiv.innerHTML = await fetchHtmlAsText(url);
 }
