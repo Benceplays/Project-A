@@ -1,19 +1,71 @@
 .img1 {
-    width: 80px;
-    height: 90px;
+    width: 250px;
+    height: 250px;
     float: left;
 }
 
 .img2 {
-    width: 80px;
-    height: 90px;
-    float: left;
+    width: 700px;
+    height: 300px;
     margin-top: 50px;
-    margin-left: 0px;
 }
 
 .img3 {
     width: 80px;
     height: 90px;
     float: left;
+}
+
+.box1 {
+    font-size: 20px;
+    margin-top: calc(20%);
+    box-align: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 250px;
+    padding-left: 50px;
+    text-align: inherit;
+}
+
+.box1:hover {
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.box1 p {
+    text-align: center;
+    padding: 10px;
+}
+
+.box1 p.link {
+    text-align: center;
+    padding: 30px;
+}
+
+.box1 hr {
+    margin: 10px 10px -10px 10px;
+}
+
+.box1 img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: -50px;
+    margin: 0;
+}
+
+.box2 {
+    box-align: right;
+    margin-left: 0px;
+    margin-right: 400px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#kozep {
+    text-align: center;
+    margin-top: 20px;
 }
