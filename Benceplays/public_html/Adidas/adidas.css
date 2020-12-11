@@ -1,0 +1,54 @@
+.img1 {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    width: auto;
+}
+
+.img4 {
+    width: 300px;
+    height: 250px;
+}
+
+.container{
+    font-size: 20px;
+    margin-top:calc(10%);
+    margin-right:50px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color:white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 0px 15px grey;
+}
+.container:last-of-type{
+    margin-right: 0;
+}
+
+.container:hover{
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+#boksz{
+    padding-top: -100px;
+}   
+
+
+.container p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+#kozep {
+    text-align: center;
+    margin-top: 20px;
+}
