@@ -1,8 +1,9 @@
 .img1 {
     width: 250px;
     height: 250px;
-    float: left;
+    margin-left: 25px;
 }
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -15,38 +16,37 @@
     height: 250px;
 }
 
-.container{
+.container {
     font-size: 20px;
-    margin-top:calc(10%);
-    margin-right:50px;
+    margin-top: calc(10%);
+    margin-right: 50px;
     margin-left: 100px;
     display: inline-block;
-    background-color:white;
+    background-color: white;
     width: 300px;
     height: 300px;
     box-shadow: 5px 0px 15px grey;
 }
-.container:last-of-type{
+
+.container:last-of-type {
     margin-right: 0;
 }
 
-.container:hover{
+.container:hover {
     border: 1px solid black;
     border-radius: 6px;
     text-decoration: underline;
     box-sizing: border-box;
 }
-#boksz{
-    padding-top: -100px;
-}   
 
+#boksz {
+    padding-top: -150px;
+}
 
-.container p{
+.container p {
     text-align: center;
     padding: 10px;
 }
-
-
 
 #kozep {
     text-align: center;
