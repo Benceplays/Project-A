@@ -94,9 +94,6 @@ and open the template in the editor.
     height: 400px;
     box-shadow: 5px 0px 15px grey;
 }
-.container:last-of-type{
-    margin-right: 0;
-}
 
 .container:hover{
     border: 1px solid black;
@@ -109,7 +106,7 @@ and open the template in the editor.
 
 .container p{
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 .container p.link{
@@ -134,6 +131,13 @@ and open the template in the editor.
     position: relative;
     right:-50px ;
     margin:0;
+}
+.container:last-of-type{
+    margin-right: 0;
+}
+
+.container:last-of-type img{
+    margin-right: 0;
 }
 
 h1{
