@@ -1,7 +1,7 @@
 .img1 {
     width: 250px;
     height: 250px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .navbar {
@@ -14,27 +14,30 @@
 .img4 {
     width: 300px;
     height: 250px;
+    margin-left: 25px;
 }
 
 .img5 {
     width: 300px;
     height: 250px;
+    margin-left: 25px;
 }
 
 .img6 {
     width: 300px;
     height: 250px;
+    margin-left: 25px;
 }
 
 .container {
     font-size: 20px;
     margin-top: calc(10%);
-    margin-right: 50px;
-    margin-left: 100px;
+    margin-right: 62px;
+    margin-left: 62px;
     display: inline-block;
     background-color: white;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     box-shadow: 5px 0px 15px grey;
 }
 
@@ -61,4 +64,9 @@
 #kozep {
     text-align: center;
     margin-top: 20px;
+}
+
+.ar {
+    color: red;
+    font-size: 30px;
 }
