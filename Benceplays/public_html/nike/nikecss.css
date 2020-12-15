@@ -1,74 +1,71 @@
-            /*
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-            /* 
-    Created on : 2020.11.10., 13:08:06
-    Author     : user
+/* 
+Created on : 2020.11.10., 13:08:06
+Author     : user
 */
-            
-            h1 {
-                text-align: center;
-                margin-top: 20px;
-            }
-            
-            .img4 {
-                width: 300px;
-                height: 250px;
-            }
-            
-            .img5 {
-                width: 300px;
-                height: 250px;
-            }
-            
-            .img6 {
-                width: 300px;
-                height: 250px;
-            }
-            
-            .container {
-                font-size: 20px;
-                margin-top: calc(10%);
-                margin-right: 50px;
-                margin-left: 100px;
-                display: inline-block;
-                background-color: white;
-                width: 350px;
-                height: 350px;
-                box-shadow: 5px 0px 15px grey;
-            }
-            
-            .container:last-of-type {
-                margin-right: 0;
-            }
-            
-            .container:hover {
-                border: 1px solid black;
-                border-radius: 6px;
-                text-decoration: underline;
-                box-sizing: border-box;
-            }
-            
-            #boksz {
-                padding-top: -150px;
-            }
-            
-            .container p {
-                text-align: center;
-                padding: 10px;
-            }
-            
-            .div1 {
-                width: 200px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 200px;
-                float: inline-start;
-            }
-            
-            .ar {
-                color: red;
-                font-size: 30px;
-            }
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img4 {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 0px 15px grey;
+    padding: 10px;
+}
+
+.container:last-of-type {
+    margin-right: 0;
+}
+
+.container:hover {
+    border: 10px solid black;
+    border-radius: 6px;
+    text-decoration: underline;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#boksz {
+    padding-top: -150px;
+}
+
+.container p {
+    text-align: center;
+    padding: 10px;
+}
+
+.div1 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    float: inline-start;
+}
+
+.ar {
+    color: red;
+    font-size: 30px;
+}
