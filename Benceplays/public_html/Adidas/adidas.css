@@ -14,31 +14,21 @@
 .img4 {
     width: 300px;
     height: 250px;
-    margin-left: 25px;
-}
-
-.img5 {
-    width: 300px;
-    height: 250px;
-    margin-left: 25px;
-}
-
-.img6 {
-    width: 300px;
-    height: 250px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .container {
+    box-sizing: border-box;
     font-size: 20px;
-    margin-top: calc(10%);
-    margin-right: 62px;
-    margin-left: 62px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
     display: inline-block;
     background-color: white;
     width: 350px;
     height: 350px;
     box-shadow: 5px 0px 15px grey;
+    padding: 1px;
 }
 
 .container:last-of-type {
@@ -49,6 +39,7 @@
     border: 1px solid black;
     border-radius: 6px;
     box-sizing: border-box;
+    padding: 0px;
 }
 
 #boksz {
