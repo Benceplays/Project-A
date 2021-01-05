@@ -33,7 +33,7 @@ h1 {
     width: 350px;
     height: 350px;
     box-shadow: 5px 0px 15px grey;
-    padding: 10px;
+    padding: 2px;
 }
 
 .container:last-of-type {
@@ -41,7 +41,7 @@ h1 {
 }
 
 .container:hover {
-    border: 10px solid black;
+    border: 2px solid black;
     border-radius: 6px;
     text-decoration: underline;
     box-sizing: border-box;
