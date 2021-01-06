@@ -94,7 +94,7 @@
     display: inline-block;
     background-color: white;
     width: 350px;
-    height: 350px;
+    height: 400px;
     box-shadow: 5px 0px 15px grey;
     padding: 1px;
 }
@@ -131,6 +131,17 @@
 
 .alahuzas {
     text-decoration: underline;
+}
+
+.buy{
+    text-decoration: underline;
+    color: grey;
+    text-align: center;
+    margin-left:130px;
+}
+
+.container:hover .buy{
+    color:blue;
 }
 
 @font-face {

@@ -101,12 +101,12 @@ h1 {
     box-sizing: border-box;
     font-size: 20px;
     margin-top: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 120px;
+    margin-left: 120px;
     display: inline-block;
     background-color: white;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     box-shadow: 5px 0px 15px grey;
     padding: 1px;
 }
@@ -143,6 +143,17 @@ h1 {
 .ar {
     color: red;
     font-size: 30px;
+}
+
+.buy{
+    text-decoration: underline;
+    color: grey;
+    text-align: center;
+    margin-left:160px;
+}
+
+.container:hover .buy{
+    color:blue;
 }
 
 @font-face {

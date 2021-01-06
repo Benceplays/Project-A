@@ -1,0 +1,20 @@
+*{
+    margin: auto;
+    padding:auto;
+}
+
+h1{
+    text-align: center;
+}
+#input{
+    margin-left: calc(45%);
+}
+
+input{
+    width: 100px;
+}
+button{
+    margin-top: 25px;
+    width: 110px;
+    margin-left: calc(45%);
+}
