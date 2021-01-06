@@ -85,27 +85,26 @@ and open the template in the editor.
 } 
 
 
-.main{
-    width: calc(33.33333333333333% + 200px);
-    z-index: 1;
-}
 
 .container{
+    box-sizing: border-box;
     font-size: 20px;
-    margin-top:calc(20%);
-    margin-right:100px;
+    margin-top:100px;
+    margin-right:250px;
+    margin-left:200px;
     display: inline-block;
     background-color:white;
     width: 200px;
     height: 400px;
     box-shadow: 5px 0px 15px grey;
+    padding: 1px;
 }
 
 .container:hover{
     border: 1px solid black;
     border-radius: 6px;
     text-decoration: underline;
-    box-sizing: border-box;
+    padding: 0px;
 }
     
 
