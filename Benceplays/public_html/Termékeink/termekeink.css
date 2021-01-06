@@ -2,11 +2,13 @@
     width: 250px;
     height: 250px;
     margin-left: 50px;
+    margin-top: 20px;
 }
 .img6 {
     width: 250px;
-    height: 250px;
+    height: 200px;
     margin-left: 50px;
+    margin-top: 70px;
 }
 
 .navbar {
@@ -14,20 +16,6 @@
     background-color: #333;
     height: 50px;
     width: auto;
-}
-
-.container {
-    box-sizing: border-box;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
-    display: inline-block;
-    background-color: white;
-    width: 350px;
-    height: 350px;
-    box-shadow: 5px 0px 15px grey;
-    padding: 1px;
 }
 
 .container:last-of-type {
@@ -63,10 +51,6 @@
 
 .alahuzas {
     text-decoration: underline;
-}.img1 {
-    width: 250px;
-    height: 250px;
-    margin-left: 50px;
 }
 
 .navbar {
@@ -74,26 +58,6 @@
     background-color: #333;
     height: 50px;
     width: auto;
-}
-
-.img4 {
-    width: 300px;
-    height: 250px;
-    margin-left: 20px;
-}
-
-.container {
-    box-sizing: border-box;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-    display: inline-block;
-    background-color: white;
-    width: 350px;
-    height: 350px;
-    box-shadow: 5px 0px 15px grey;
-    padding: 1px;
 }
 
 .container:last-of-type {
@@ -128,10 +92,6 @@
 
 .alahuzas {
     text-decoration: underline;
-}{
-    width: 250px;
-    height: 250px;
-    margin-left: 50px;
 }
 
 .navbar {
@@ -141,18 +101,12 @@
     width: auto;
 }
 
-.img4 {
-    width: 300px;
-    height: 250px;
-    margin-left: 20px;
-}
-
 .container {
     box-sizing: border-box;
     font-size: 20px;
     margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
     display: inline-block;
     background-color: white;
     width: 350px;
