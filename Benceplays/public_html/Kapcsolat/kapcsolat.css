@@ -5,10 +5,23 @@ body{
 h1{
     text-align: center;
     padding-top: 25px;
-    font-size: 60px;
+    font-size: 25px;
 }
 #email{
     padding-right: 250px;
     padding-left: 250px;
     padding-top: 50px;
+    
+}
+.p1{
+    size: 7px;
+    margin-top: -27px;
+    margin-left: 70px;
+}
+img{
+    position: relative;
+    margin-left: 50px;
+}
+.p2{
+    margin-left:70px;
 }
