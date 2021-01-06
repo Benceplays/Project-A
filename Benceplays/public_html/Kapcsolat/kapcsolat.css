@@ -108,10 +108,23 @@ h1{
     
     width: 200px;
 }
-.img2{
+.imgimg{
     position: relative;
     margin-left:50px;
-    
+   margin-top: 20px;
     width:20px;
     height: 20px;
 }
+.p3{
+    margin-left:70px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.p4{
+    margin-left: 70px;
+    margin-top: -27px;
+}
+
+    
+    
