@@ -148,6 +148,13 @@
 .alahuzas {
     text-decoration: underline;
 }
-a{
+.link1{
     font-size: 30px;
+    margin-left: 125px;
+    color: black;
+}
+.link2{
+    font-size: 30px;
+    margin-left: 140px;
+    color: black;
 }
