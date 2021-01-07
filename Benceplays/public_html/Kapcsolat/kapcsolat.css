@@ -157,8 +157,11 @@ textarea{
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
     padding: 2px;
-    margin-left: 50%;
+    margin-left: 40px;
+    
 }
     label{
-        margin-left:50%;
+        margin-left:40px;
+        position: relative;
+        
     }
