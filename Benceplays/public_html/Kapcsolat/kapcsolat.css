@@ -141,8 +141,8 @@ textarea{
         top: 170px;
         left: 340px;
     }
-button{
-    
+#cigo{
+    position: absolute;
     top: 484px;
     left: 861px;
 }
