@@ -227,3 +227,8 @@
     margin-left: 140px;
     color: black;
 }
+
+@font-face {
+    src : url('../font.ttf');
+    font-family : myFont;
+}
