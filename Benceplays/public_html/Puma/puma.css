@@ -31,6 +31,7 @@
 .container:hover {
     border: 1px solid black;
     border-radius: 6px;
+    text-decoration: underline;
     box-sizing: border-box;
     padding: 0px;
 }
@@ -52,10 +53,6 @@
 .ar {
     color: red;
     font-size: 30px;
-}
-
-.alahuzas {
-    text-decoration: underline;
 }
 
 *{
